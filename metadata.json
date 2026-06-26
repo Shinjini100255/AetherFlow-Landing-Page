@@ -1,0 +1,6 @@
+{
+  "name": "AetherFlow",
+  "description": "Premium landing page for AetherFlow - an advanced AI-powered Data Automation Platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
