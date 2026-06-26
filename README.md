@@ -1,116 +1,20 @@
-# AI Automation Platform Landing Page
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A premium, high-performance SaaS landing page built with **Next.js** and **Tailwind CSS**, featuring dynamic multi-currency pricing, a responsive Bento-to-Accordion layout, handcrafted animations, and a performance-focused architecture.
+# Run and deploy your AI Studio app
 
-Designed as a frontend engineering challenge emphasizing clean architecture, responsive design, accessibility, SEO, and optimized rendering.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/a9ae6850-1786-45d4-b4a4-572842c45477
 
-## Features
+## Run Locally
 
-* Premium AI SaaS landing page with a modern, responsive interface
-* Dynamic pricing engine with:
+**Prerequisites:**  Node.js
 
-  * Monthly and Annual billing
-  * Multi-currency support (INR, USD, EUR)
-  * Automatic annual discount calculation
-* Responsive Bento Grid that transforms into an Accordion on mobile devices
-* State persistence across responsive layout transitions
-* Optimized rendering with isolated state updates
-* Custom CSS animations and smooth micro-interactions
-* Fully responsive across mobile, tablet, laptop, and desktop
-* Semantic HTML with SEO optimization
-* Accessibility-focused implementation
 
----
-
-## Tech Stack
-
-* **Framework:** Next.js
-* **Language:** TypeScript
-* **Styling:** Tailwind CSS
-* **Animations:** Native CSS Transitions & Web Animations API
-* **Deployment:** Netlify
-
----
-
-## Project Structure
-
-```text
-app/
-components/
-  ├── Hero/
-  ├── Features/
-  ├── Pricing/
-  ├── Testimonials/
-  ├── FAQ/
-  └── Footer/
-lib/
-public/
-styles/
-```
-
----
-
-## Performance Optimizations
-
-* Localized state updates to minimize unnecessary re-renders
-* Component memoization for improved rendering performance
-* Hardware-accelerated animations using `transform` and `opacity`
-* Optimized initial load and Time to Interactive (TTI)
-* Semantic markup for improved Lighthouse and SEO scores
-
----
-
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open your browser and navigate to:
-
-```text
-http://localhost:3000
-```
-
----
-
-## Live Demo
-
-**Live Website:** *[Add deployment link here](https://frontendbattlefirst.netlify.app/)*
-
----
-
-## Competition Requirements Implemented
-
-* Dynamic multi-currency pricing engine
-* Monthly and Annual billing toggle
-* Pricing calculation using a configuration matrix
-* Responsive Bento Grid with mobile Accordion transformation
-* State persistence across viewport changes
-* CSS-only animations (no external animation libraries)
-* Performance-optimized React architecture
-* Semantic HTML and SEO best practices
-* Fully responsive layout
-* Accessibility and keyboard navigation support
-
----
-
-## License
-
-This project was developed as part of a frontend engineering challenge and is intended for educational and evaluation purposes.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
