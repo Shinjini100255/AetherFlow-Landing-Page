@@ -92,13 +92,7 @@ http://localhost:3000
 
 ## Live Demo
 
-**Live Website:** *Add deployment link here*
-
----
-
-## Demo Video
-
-**Demo Recording:** *Add Google Drive link here*
+**Live Website:** *[Add deployment link here](https://frontendbattlefirst.netlify.app/)*
 
 ---
 
